@@ -3,12 +3,15 @@
     <main>
    <div class="container">
     <div class="row">
-        <div class="col-4" v-for="cocktail in cocktails" :key="cocktail.id">
+        <div class="col-4 mt-2 mb-2 vh-50" v-for="cocktail in cocktails" :key="cocktail.id">
             <div class="card">
                 <img :src="cocktail.image" class="card-img-top" alt="Cocktail Image">
                 <div class="card-body">
-                <h5 class="card-title">{{ cocktail.name }}</h5>
+                <h5 class="card-title text-center">{{ cocktail.name }}</h5>
                 <p class="card-text">{{ cocktail.description }}</p>
+                <p class="card-text">{{ cocktail.price }}€</p>
+                <p class="card-text">{{ cocktail.alcohol_content}}°</p>
+
             </div>
         </div>
         </div>
@@ -56,3 +59,18 @@ export default {
 
 }
 </script>
+
+<style scoped>
+
+.card {
+  transition: all 0.2s ease-in-out; 
+}
+
+.card:hover {
+
+  transform: scale(1.05); 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+  
+}
+
+</style>
