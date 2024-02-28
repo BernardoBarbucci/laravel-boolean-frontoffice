@@ -1,23 +1,20 @@
 
 <template>
-   <main class="container">
-        <div class="row">
-            <div class="col-12 mt-5">
-                <ul>
-                    <li v-for="cocktail in cocktails" :key="cocktail.id">
-                        <div class="cocktail-image">
-                            <h2 class="title ms-2">
-                                {{ cocktails.name }}
-                            </h2>
-                                <img :src="cocktail.image" alt="" class="image-cocktail">
-                                <p>
-                                    {{ cocktail.description }}
-                                </p>
-                        </div>
-                    </li>
-                </ul>
+    <main>
+   <div class="container">
+    <div class="row">
+        <div class="col-4" v-for="cocktail in cocktails" :key="cocktail.id">
+            <div class="card">
+                <img :src="cocktail.image" class="card-img-top" alt="Cocktail Image">
+                <div class="card-body">
+                <h5 class="card-title">{{ cocktail.name }}</h5>
+                <p class="card-text">{{ cocktail.description }}</p>
             </div>
         </div>
+        </div>
+    </div>
+   </div>
+
 </main>
 </template>
 
