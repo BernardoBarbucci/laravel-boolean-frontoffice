@@ -1,25 +1,24 @@
 <template>
   <div>
-    <HomePage />
-    <CocktailsIndex />
-    <FooterApp />
+    <HeaderApp/>
     <router-view></router-view>
+    <FooterApp />
   </div>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue';
-import CocktailsIndex from './components/CocktailsIndex.vue';
+import HeaderApp from './components/HeaderApp.vue';
 import FooterApp from './components/FooterApp.vue';
 
 export default {
   name: 'App',
   components: {
-    HomePage,
-    CocktailsIndex,
+    HeaderApp,
     FooterApp,
   }
 }
 </script>
 
-<style></style>
+<style lang="scss">
+
+</style>

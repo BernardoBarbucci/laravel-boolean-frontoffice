@@ -2,7 +2,7 @@
     <section class="container-fluid">
         <div class="d-flex justify-content-center">
             <h1 class="text-warning">
-                hello
+                footer
             </h1>
         </div>
     </section>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    name: 'HomePage',
+    name: 'FooterApp',
 }
 </script>
 
