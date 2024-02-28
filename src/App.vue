@@ -1,7 +1,7 @@
 <template>
 
   <router-view/>
-  <h1 class="text-danger">Ciao</h1>
+
 </template>
 
 
