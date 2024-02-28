@@ -3,7 +3,7 @@
     <main>
    <div class="container mt-5">
     <div class="row">
-        <div class="col-4 mt-2 mb-2 vh-50" v-for="cocktail in cocktails" :key="cocktail.id">
+        <div class="col-4 mt-2 mb-4 vh-50" v-for="cocktail in cocktails" :key="cocktail.id">
             <div class="card">
                 <img :src="cocktail.image" class="card-img-top" alt="Cocktail Image">
                 <div class="card-body">
