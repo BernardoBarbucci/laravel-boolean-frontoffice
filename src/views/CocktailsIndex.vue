@@ -1,7 +1,7 @@
 
 <template>
     <main>
-   <div class="container">
+   <div class="container mt-5">
     <div class="row">
         <div class="col-4 mt-2 mb-2 vh-50" v-for="cocktail in cocktails" :key="cocktail.id">
             <div class="card">
@@ -11,7 +11,6 @@
                 <p class="card-text">{{ cocktail.description }}</p>
                 <p class="card-text">{{ cocktail.price }}€</p>
                 <p class="card-text">{{ cocktail.alcohol_content}}°</p>
-
             </div>
         </div>
         </div>
