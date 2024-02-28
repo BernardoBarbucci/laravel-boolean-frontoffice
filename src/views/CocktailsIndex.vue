@@ -1,6 +1,9 @@
 
 <template>
     <main>
+        <h1 class="title-cocktails text-center mt-5">
+            cocktails
+        </h1>
    <div class="container mt-5">
     <div class="row">
         <div class="col-4 mt-2 mb-4 vh-50" v-for="cocktail in cocktails" :key="cocktail.id">
@@ -60,6 +63,10 @@ export default {
 </script>
 
 <style scoped>
+
+.title-cocktails{
+    color: white;
+} 
 
 .card {
   transition: all 0.2s ease-in-out; 
