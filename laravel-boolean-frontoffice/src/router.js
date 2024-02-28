@@ -1,8 +1,6 @@
-// da rivedere completamente
-
 import { createRouter, createWebHistory } from "vue-router";
 import HomePage from './pages/HomePage.vue';
-import ChiSiamo from './pages/ChiSiamo.vue';
+import AboutUs from './pages/AboutUs.vue';
 import Contatti from './pages/Contatti.vue';
 
 const router = createRouter({
@@ -14,9 +12,9 @@ const router = createRouter({
             component: HomePage
         },
         {
-            path: '/chisiamo',
-            name: 'ChiSiamo',
-            component: ChiSiamo
+            path: '/aboutus',
+            name: 'AboutUs',
+            component: AboutUs
         },
         {
             path: '/contatti',
