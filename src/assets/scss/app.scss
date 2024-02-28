@@ -1,6 +1,34 @@
+body{
+    background-image: url(../final_landing_page_mockup.png);
+    background-size: cover;
+}
+
 .bg-image{
     width: 100vw;
     height: 100vh;
     object-fit: cover;
     overflow: hidden;
+}
+
+.first-main-title{
+    padding-top: 140px;
+    padding-left: 92px;
+    font-size: 70px;
+}
+
+.main-title{
+    font-size: 85px;
+    padding-top: 125px;
+    font-weight: 100;
+}
+
+.home-description{
+    width: 550px;
+    height: 260px;
+    padding-left: 95px;
+    line-height: 40px;
+}
+
+.index-btn{
+    
 }
