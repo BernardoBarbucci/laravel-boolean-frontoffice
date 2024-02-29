@@ -1,19 +1,19 @@
 
 <template>
     <main>
-        <h1 class="title-cocktails text-center mt-5">
-            cocktails
-        </h1>
-   <div class="container mt-5">
+        <div class="container mt-5">
+            <h1 class="title-cocktails mt-5 fw-bold pb-4">
+                Cocktails
+            </h1>
     <div class="row">
         <div class="col-4 mt-2 mb-4 vh-50" v-for="cocktail in cocktails" :key="cocktail.id">
-            <div class="card">
-                <img :src="cocktail.image" class="card-img-top" alt="Cocktail Image">
+            <div class="card my-card rounded-0">
+                <img :src="cocktail.image" class="items-img card-img-top" alt="Cocktail Image">
                 <div class="card-body">
-                <h5 class="card-title text-center">{{ cocktail.name }}</h5>
-                <p class="card-text">{{ cocktail.description }}</p>
+                <h5 class="card-title text-center fs-3 fw-semibold">{{ cocktail.name }}</h5>
+                <p class="card-text card-description">{{ cocktail.description }}</p>
                 <p class="card-text">{{ cocktail.price }}€</p>
-                <p class="card-text">{{ cocktail.alcohol_content}}°</p>
+                <p class="card-text mb-2">{{ cocktail.alcohol_content}}°</p>
             </div>
         </div>
         </div>
@@ -64,6 +64,17 @@ export default {
 
 <style scoped>
 
+.card-description{
+    border-left: 4px solid #8cff00;
+    padding-left: 1rem;
+}
+
+.items-img{
+    height: 310px;
+}
+.my-card{
+    height: 500px;
+}
 .title-cocktails{
     color: white;
 } 
