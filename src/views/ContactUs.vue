@@ -79,6 +79,7 @@ export default {
     padding: 20px;
     border-radius: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
 }
 
 h2 {
