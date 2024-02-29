@@ -1,6 +1,12 @@
-body{
-    background-image: url(../final_landing_page_mockup.png);
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../final_landing_page_mockup.png');
     background-size: cover;
+    z-index: 1; /* Assicura che lo sfondo sia dietro la barra verde */
 }
 
 .bg-image{
@@ -31,4 +37,30 @@ body{
 
 .index-btn{
     
+}
+
+.green-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px; /* Larghezza dell'immagine della barra verde */
+    height: 100%;
+    background-image: url('../lato.png');
+    background-size: contain;
+    z-index: 2; /* Assicura che la barra verde sia sopra lo sfondo */
+}
+
+.about-title{
+    color: white;
+    padding-left: 7rem;
+    padding-top: 9rem;
+    font-size: 100px;
+}
+
+.about-p {
+    color: white;
+    padding-top: 4rem;
+    padding-left: 7rem;
+    padding-right: 45rem;
+    line-height: 40px;
 }
