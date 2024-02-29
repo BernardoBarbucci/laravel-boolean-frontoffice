@@ -29,35 +29,13 @@
 }
 
 .home-description{
-    width: 550px;
+    width: 670px;
     height: 260px;
+    letter-spacing: 1.7px;
     padding-left: 95px;
     line-height: 40px;
 }
 
-.green-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 85px; /* Larghezza dell'immagine della barra verde */
-    height: 100%;
-    background-image: url('../lato.png');
-    background-size: contain;
-    z-index: 2; /* Assicura che la barra verde sia sopra lo sfondo */
-}
-
-.about-title{
-    color: white;
-    padding-left: 7rem;
-    padding-top: 9rem;
-    font-size: 100px;
-}
-
-.about-p {
-    color: white;
-    padding-top: 4rem;
-    padding-left: 7rem;
-    padding-right: 45rem;
-    line-height: 45px;
-    font-size: 15px;
+.index-btn{
+    
 }

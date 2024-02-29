@@ -8,7 +8,46 @@
 </div>
 </template>
 
-<style>
+<style scoped>
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../final_landing_page_mockup.png');
+    background-size: cover;
+    z-index: 1; 
+}
+.green-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px; 
+    height: 100%;
+    background-image: url('../assets/lato.png');
+    background-size: contain;
+    z-index: 2; 
+}
+
+.about-title{
+    color: white;
+    padding-left: 7rem;
+    padding-top: 9rem;
+    font-size: 100px;
+}
+
+.about-p {
+    color: white;
+    padding-top: 4rem;
+    padding-left: 7rem;
+    padding-right: 45rem;
+    line-height: 45px;
+    font-size: 15px;
+}
+
+
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
