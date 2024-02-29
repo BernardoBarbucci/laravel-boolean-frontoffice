@@ -23,12 +23,53 @@ body{
 }
 
 .home-description{
-    width: 550px;
+    width: 670px;
     height: 260px;
+    letter-spacing: 1.7px;
     padding-left: 95px;
     line-height: 40px;
 }
 
 .index-btn{
+    width: 280px;
+    height: 100px;
+    border-radius: 0;
+    margin-left: 95px;
+    height: 100%;
+    vertical-align: middle;
+    background-color: #c6c6c6;
+    opacity: 50%;
+    text-align: center;
+    transition: cubic-bezier(.22, .61, .36, 1);
+    transition-duration: .3s;
     
+    a{
+        all: unset;
+        box-sizing: border-box;
+
+    &:hover{
+        background-color: #76ac00;
+        opacity: 90%;    
+    }
+    
+    }
+
+        h2{
+            color: black;
+            font-weight: 100;
+            letter-spacing: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 5px;
+        }
+    }
+
+.index-btn:hover{
+    background-color: #76ac00;
+    opacity: 100%;
+    border: none;
+}
+
+.index-btn:active{
 }

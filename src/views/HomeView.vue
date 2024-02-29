@@ -19,9 +19,11 @@
             <p class="home-description text-white fw-medium">
                 Benvenuti nel nostro cocktail bar, dove l'eleganza si unisce all'innovazione per offrirvi un'esperienza unica. Con cocktail artigianali e un'atmosfera raffinata, ogni sorso è un viaggio sensoriale. Venite a scoprire il gusto della nostra creatività in ogni bicchiere.
             </p>
-            <button class="index-btn">
-                <a href="">
-
+            <button type="button" class="index-btn btn btn-primary">
+                <a href="#" class="justify-content-center">
+                    <h2>
+                        MENU
+                    </h2>
                 </a>
             </button>
         </section>
