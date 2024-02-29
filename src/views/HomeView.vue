@@ -9,8 +9,8 @@
     </head>
 
     <body class="d-flex align-content-center">
-        <section>
-            <div class="d-flex align-items-center">
+        <section class="mt-0">
+            <div class="d-flex align-items-center title-container">
                 <h1 class="first-main-title text-white pe-4 pb-2 fw-bolder">Cocktail</h1>
                 <h1 class="main-title text-white fw-lighter">Bar</h1>
             </div>
@@ -52,7 +52,9 @@
     
 <style scoped>
 
-
+.title-container{
+    height: 200px;
+}
 .bg-image{
     width: 100vw;
     height: 100vh;
