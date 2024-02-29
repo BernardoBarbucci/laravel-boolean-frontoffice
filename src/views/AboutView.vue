@@ -14,6 +14,7 @@
 </template>
 
 
+
 <style scoped>
 .background-image {
   position: absolute;
@@ -60,4 +61,5 @@
     display: flex;
     align-items: center;
   }
-}</style>
+}
+</style>
