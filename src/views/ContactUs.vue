@@ -74,7 +74,7 @@ export default {
 
 .container {
     width: 50%;
-    height: 900px;
+    height: 850px;
     background-color: #fff;
     padding: 20px;
     border-radius: 1rem;
