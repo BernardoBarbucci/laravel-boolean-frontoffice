@@ -6,7 +6,7 @@
     height: 100%;
     background-image: url('../final_landing_page_mockup.png');
     background-size: cover;
-    z-index: 1; /* Assicura che lo sfondo sia dietro la barra verde */
+    z-index: 1; 
 }
 
 .bg-image{
@@ -33,10 +33,6 @@
     height: 260px;
     padding-left: 95px;
     line-height: 40px;
-}
-
-.index-btn{
-    
 }
 
 .green-bar {
